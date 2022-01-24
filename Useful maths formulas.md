@@ -96,6 +96,7 @@ The combination is a way of selecting items from a collection, such that the ord
 #### Formula:
 
 <img src="./assets/images/combination_formula.png" width="300">
+
 ```d
 C(N, R) = N! / ((N-R)! * R!)
 ```
@@ -144,11 +145,46 @@ A permutation is a mathematical technique that determines the number of possible
 P(n, r) = n! / (n-r)!
 ```
 
-#### Pseudocde
+#### Pseudocode
 
 ```d
 function permutation(n, r):
     numerator = factorial(n)
     denominator = factorial(n-r)
     return numerator / denominator
+```
+
+## Decimal to Binary
+
+In order to convert a decimal number to binary, repeatedly divide by two until you reach 0. Store the remainders seperately and the resultant string of those remainders in reverse order is the binary equivalant.
+
+#### Pseudocode
+
+```d
+// n is an integer
+function decimalToBinary(n):
+    result = ""
+    while n > 0:
+        remainder = n % 2
+        result = toString(remainder) + result
+        n = n / 2    // Integer division
+    return result
+```
+
+## Binary to Decimal
+
+To convert a binary string to decimal integer, start iterating from the right and multiply each digit by `pow(2, i)` where `i` is the position of the digit from right (0 based).
+
+#### Pseudocode
+
+```d
+// n is a binary string
+function binaryToDecimal(n):
+    i = 0
+    result = 0
+    for digit in reversed(n):
+        digit = strToInt(digit)
+        result += digit * pow(2, i)
+        i = i + 1
+    return result
 ```

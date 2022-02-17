@@ -188,3 +188,21 @@ function binaryToDecimal(n):
         i = i + 1
     return result
 ```
+
+## Modulo Properties
+
+Modulo represents the remainder of two numbers. Generally denoted by the `%` operator.
+
+It can be computed as:
+
+```d
+a - (a/b) * b
+```
+
+Some commonly used modulo properties:
+
+```d
+( a + b) % c = ( ( a % c ) + ( b % c ) ) % c
+( a * b) % c = ( ( a % c ) * ( b % c ) ) % c
+( a – b) % c = ( ( a % c ) – ( b % c ) ) % c
+```

@@ -4,7 +4,7 @@
 
 #### Easy
 
-1. **Fibonacci Pattern**
+1. **Fibonacci Pattern**<br>
    Take N (number of rows), print the following pattern (for N = 4)
    <pre>
     0
@@ -13,25 +13,25 @@
     8 13 21 34
     </pre>
 
-   Constraints:
-   0 < N < 100
-    </pre>
-    Explanation:For given input n, You need to print n(n+1)/2 fibonacci numbers. Kth row contains , next k fibonacci numbers.
+   **Constraints**:<br>
+   0 < N < 100<br>
+
+   **Explanation**:<br>For given input n, You need to print n(n+1)/2 fibonacci numbers. Kth row contains , next k fibonacci numbers.
 
    <br>
    <br>
 
-2. **Series Printing**
+2. **Series Printing**<br>
    Take the following as input.
 
    A number (N1)
    A number (N2)
    Write a function which prints first N1 terms of the series 3n + 2 which are not multiples of N2.
 
-   **Sample Input**:
+   **Sample Input**:<br>
    10
-   4
-   **Sample Output**:
+   4<br>
+   **Sample Output**:<br>
    5
    11
    14
@@ -41,8 +41,8 @@
    29
    35
    38
-   41
-   **Explanation**:
+   41<br>
+   **Explanation**:<br>
    The output will've N1 terms which are not divisible by N2.
 
    <br>
@@ -50,17 +50,17 @@
 
 #### Medium
 
-1. **Reverse Sum**
-   Given an integer, find the sum of the number and its reverse.
-   Example Input:
-   `N = 536`
-   Example Output:
-   `1171`
-   Explanation:
+1. **Reverse Sum**<br>
+   Given an integer, find the sum of the number and its reverse.<br>
+   **Example Input**:<br>
+   `N = 536`<br>
+   **Example Output**:<br>
+   `1171`<br>
+   **Explanation**:<br>
    `536 + 635 = 1171`
    <br>
    <br>
-2. **Armstrong Numbers**
+2. **Armstrong Numbers**<br>
    Given an integer, check whether it is an Armstrong Number.
    Armstrong number is a number that is equal to the sum of cubes of its digits. For example 0, 1, 153, 370, 371 and 407 are the Armstrong numbers.
 
@@ -76,7 +76,7 @@
    <br>
    <br>
    
-3. **Perfect Numbers**
+3. **Perfect Numbers**<br>
    <p>You are given an integer <strong>A</strong>.</p><p></p><p></p><p></p><p></p><p></p>
     <p>You have to print all the <strong>perfect numbers</strong> which lie in the range <strong>[1, A]</strong> in ascending
     order.</p>
@@ -95,12 +95,14 @@
    <p>Output 1:</p><p></p><p></p><p></p><p></p><p></p>
     <pre> 6 </pre>
     <p>Output 2:</p>
-    <pre> 6 
-    28 </pre>
+    <pre> 
+    6 
+    28 
+    </pre>
 
 #### Hard
 
-1. **Ganesha Pattern**
+1. **Ganesha Pattern**<br>
    Take as input N, an odd number (>=5) . Print the following pattern as given below for N = 7.
    <pre>
    *  ****
@@ -133,7 +135,7 @@
    Explanation:
    Catch the pattern for the corresponding input and print it accordingly.
 
-2. **Different Pattern**
+2. **Different Pattern**<br>
    <p>Given an integer <strong>N</strong>, print the corresponding <strong>Full Numeric Pyramid</strong> pattern for <strong>N</strong>.</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
    <p>For example if <strong>N = 5</strong> then pattern will be like:</p>
    <pre>
@@ -150,16 +152,16 @@
 
    <br/>
 
-   **Example Input**:
-   3
-   **Example Output**:
+   **Example Input**:<br>
+   3<br>
+   **Example Output**:<br>
    <pre>
    0 0 3 0 0
    0 2 4 6 0
    1 2 3 4 5
    </pre>
 
-3. **Hourglass Pattern**
+3. **Hourglass Pattern**<br>
    Take N as input:
    For N = 5, we wish to print the following pattern
    <pre>
@@ -180,7 +182,7 @@
 
 #### Easy
 
-1. **Check if sorted**
+1. **Check if sorted**<br>
    Given an array, check if it sorted
 
    **Sample Input**:
@@ -189,10 +191,10 @@
    1 4 7 9 10
    </pre>
 
-   **Sample Output**:
+   **Sample Output**:<br>
    Yes
 
-   **Explanation**
+   **Explanation**:<br>
    The given array is sorted
 
    <br>
@@ -200,8 +202,8 @@
    <br>
    <br>
 
-2. **Linear Search 2**
-   Given an array containing duplicate numbers and a target value, find the index of 2nd occurence of the target value
+2. **Linear Search 2** <br>
+   Given an array containing duplicate numbers and a target value, find the index of 2nd occurence of the target value<br>
    **Sample Input**:
    <pre>
    6
@@ -209,9 +211,10 @@
    2
    </pre>
 
-   **Sample Output**:
+   **Sample Output**:<br>
    3
-   **Explanation**
+   <br>
+   **Explanation**<br>
    Here target=2
    There are 3 occurences of 2 in the given array.
    The 2nd occurence is found at index=3.
@@ -227,9 +230,13 @@
    <p></p><p></p>
     <p>Write a program to input N numbers from user and print the count of all the super maximas among them. </p>
     <p><strong>NOTE: </strong> An element is super maxima if there exist atleast one element before it 
-    and atleast one element after it and following codintions are satisfied:
+    and atleast one element after it and following conditions are satisfied:
     </p><ul><li>
     <strong>A[i-1] &lt; A[i] &gt; A[i+1]</strong></li>
+    <li>
+    <strong>A[i-1] + A[i+1] < A[i]</strong>
+    </li>
+    </ul>
 
    **Sample Input**:
     <pre>
@@ -256,7 +263,7 @@
 
 #### Medium
 
-1. **String Addition**
+1. **String Addition**<br>
    Jack is awesome. His friends call him little Einstein. To test him, his friends gave him a string.
    They told him to add the string with its reverse string and follow these rules:
 
@@ -281,24 +288,26 @@
 
    1 <= str <= 10^5
 
-   **SAMPLE INPUT**
-   4
+   **SAMPLE INPUT**<br>
+   <pre>4
    hello
    codeapocalypse
    programming
    world
+   </pre>
 
    **SAMPLE OUTPUT**
-   wqxqw
+   <pre>wqxqw
    hhtdmqrrqmdthh
    wfxtebetxfw
    aajaa
+   </pre>
 
 ## Topic - 2D Arrays
 
 #### Medium
 
-1. **Transpose Sum**
+1. **Transpose Sum**<br>
    Given a square matrix of size N, find its transpose and compute their sum.
 
    **Sample Input**:
@@ -314,7 +323,7 @@
    11 12
    </pre>
 
-   **Explanation**:
+   **Explanation**:<br>
    Transpose of the given matrix is
    <pre>
    1 2
@@ -322,17 +331,19 @@
    </pre>
 
    Sum of original matrix and transpose matrix would be:
+   <pre>
    2 11
    11 12
+   </pre>
 
    <br><br><br>
 
 #### Hard
 
-1. **Determinant**
+1. **Determinant**<br>
    Given a N\*N matrix, find its determinant.
-   Input contains N, size of the matrix in the first line. Next N lines contain each row of the matrix.
-   Sample Input:
+   Input contains N, size of the matrix in the first line. Next N lines contain each row of the matrix.<br>
+   Sample Input:<br>
    <pre>
    3
    4 1 9
@@ -350,17 +361,18 @@
    <br>
    <br>
 
-2. **Wave Print Column Wise**
+2. **Wave Print Column Wise**<br>
    Take as input a two-d array. Wave print it column-wise.
+   <br>
 
-   Input Format:
+   **Input Format**:<br>
    Two integers M(row) and N(colomn) and further M \* N integers(2-d array numbers).
 
-   Constraints:
+   **Constraints**:<br>
    Both M and N are between 1 to 10.
 
-   Output Format:
-   All M \* N integers seperated by commas with 'END' wriiten in the end(as shown in example).
+   **Output Format**:<br>
+   All M \* N integers seperated by commas with 'END' written in the end(as shown in example).
 
    Sample Input:
    <pre>
@@ -378,25 +390,25 @@
 
 #### Easy
 
-1. **Factorial of GCD**
-   Given two numbers, find their GCD and prints its factorial.
-   **Sample Input**
-   12 20
-   **Sample Output**
+1. **Factorial of GCD**<br>
+   Given two numbers, find their GCD and prints its factorial.<br>
+   **Sample Input**<br>
+   12 20<br>
+   **Sample Output**<br>
    24
 
-   **Explanation**
+   **Explanation**<br>
    GCD(12,20) = 4
    4! = 24
 
 #### Medium
 
-1. **GCD of N Numbers**
-   Given N numbers, find and print their GCD.
+1. **GCD of N Numbers**<br>
+   Given N numbers, find and print their GCD.<br>
    **Sample Input**:
    <pre>
    5
    20 40 100 55 35
    </pre>
-   **Sample Output**:
+   **Sample Output**:<br>
    5
